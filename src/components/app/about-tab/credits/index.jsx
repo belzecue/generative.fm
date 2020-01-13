@@ -4,19 +4,37 @@ import './credits.scss';
 const supporters = [
   'theunis',
   'Lisa Sieverts',
-  'Phil Langlois',
   'Casper Lourens',
   'James',
   'Anton Mironov',
   'Romain',
   'Price Comstock',
-  'Jay Zehngebot',
   'Bruz Marzolf',
-  'Laurent Baumann',
   'Matthew William Whisennand',
   'Dan Carr',
+  'Stephen Turner',
+  'Lorenzo Burgio',
+  'Tim Van Damme',
+  'Michael Gehrmann',
+  'Martin Stubbs',
+  'Oleksandr Bugor',
+  'Zarremgregarrok',
+  'Catherine Desrochers',
+  'Douglas Fils',
+  'KingOfHearts',
+  'John',
+  'Fred - FLQ',
+  'Eric Turner',
+  'Emily M Kaplan',
 ];
-const majorSupporters = ['Brian Fountain', 'Mike Smith'];
+const majorSupporters = [
+  'Brian Fountain',
+  'Mike Smith',
+  'Christian DeWolf',
+  'Sam Roelants',
+  'Papuna Gagnidze',
+  'Russ Creech',
+];
 
 const Credits = () => (
   <div className="credits">

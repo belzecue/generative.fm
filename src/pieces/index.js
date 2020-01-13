@@ -31,6 +31,24 @@ import moment from '@generative-music/piece-moment';
 import substrate from '@generative-music/piece-substrate';
 import pulseCodeModulation from '@generative-music/piece-pulse-code-modulation';
 import bhairav from '@generative-music/piece-bhairav';
+import stratospheric from '@generative-music/piece-stratospheric';
+import yesterday from '@generative-music/piece-yesterday';
+import lastTransit from '@generative-music/piece-last-transit';
+import atSunrise from '@generative-music/piece-at-sunrise';
+import noRefrain from '@generative-music/piece-no-refrain';
+import aguaRavine from '@generative-music/piece-agua-ravine';
+import animaliaChordata from '@generative-music/piece-animalia-chordata';
+import aboveTheRain from '@generative-music/piece-above-the-rain';
+import westernMedicine from '@generative-music/piece-western-medicine';
+import soundtrack from '@generative-music/piece-soundtrack';
+import nakaii from '@generative-music/piece-nakaii';
+import remembering from '@generative-music/piece-remembering';
+import eyesClosed from '@generative-music/piece-eyes-closed';
+import uun from '@generative-music/piece-uun';
+import ritual from '@generative-music/piece-ritual';
+import transmission from '@generative-music/piece-transmission';
+import documentaryFilms from '@generative-music/piece-documentary-films';
+import beneathWaves from '@generative-music/piece-beneath-waves';
 
 const pieces = [
   enoMachine,
@@ -66,6 +84,24 @@ const pieces = [
   substrate,
   pulseCodeModulation,
   bhairav,
+  stratospheric,
+  yesterday,
+  lastTransit,
+  atSunrise,
+  noRefrain,
+  aguaRavine,
+  animaliaChordata,
+  aboveTheRain,
+  westernMedicine,
+  soundtrack,
+  nakaii,
+  remembering,
+  eyesClosed,
+  uun,
+  ritual,
+  transmission,
+  documentaryFilms,
+  beneathWaves,
 ].reverse();
 
 export default pieces;

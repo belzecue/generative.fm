@@ -9,6 +9,237 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 (none)
 
+## [1.24.0] - 2019-12-11
+
+### Changed
+
+- Update Patron list
+
+## [1.23.0] - 2019-12-01
+
+### Fixed
+
+- "Above the Rain" releases all resources when stopped
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "Beneath Waves"
+
+## [1.22.0] - 2019-11-24
+
+### Added
+
+- New piece: "Documentary Films"
+
+## [1.21.0] - 2019-11-17
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "Transmission"
+
+## [1.20.0] - 2019-11-10
+
+### Fixed
+
+- Wonky update process
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "Ritual"
+
+## [1.19.0] - 2019-11-03
+
+### Fixed
+
+- Update link (hopefully)
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "Uun"
+
+## [1.18.1] - 2019-10-27
+
+### Fixed
+
+- Add missing patron
+
+## [1.18.0] - 2019-10-27
+
+### Changed
+
+- Update default global sortings
+
+### Added
+
+- New piece: "Eyes Closed"
+
+## [1.17.0] - 2019-10-20
+
+### Changed
+
+- Update Nakaii to latest version
+
+### Added
+
+- New piece: "Remembering"
+
+## [1.16.1] - 2019-10-18
+
+### Fixed
+
+- Fix global stats daily refresh
+
+## [1.16.0] - 2019-10-13
+
+### Changed
+
+- Update Patron list
+- Update Last Transit to latest version
+- Update Pulse-code Modulation to latest version
+
+### Added
+
+- New piece: "Nakaii"
+
+## [1.15.0] - 2019-10-06
+
+### Changed
+
+- Pieces will no longer resort by playtime while a piece is playing
+- Update Patron list
+
+### Added
+
+- New sortings based on global data: trending, global play time, and global favorites
+- New piece: "Soundtrack"
+
+## [1.14.0] - 2019-09-29
+
+### Added
+
+- New piece: "Western Medicine"
+
+## [1.13.0] - 2019-09-22
+
+### Added
+
+- New piece: "Above the Rain"
+
+## [1.12.0] - 2019-09-15
+
+### Fixed
+
+- Switching from the square cut visualization to the partial lattice while playing displays correctly
+
+### Removed
+
+- Analytics
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- Send state data to database on page unload
+- New piece: "Animalia Chordata"
+
+## [1.11.1] - 2019-09-09
+
+### Fixed
+
+- Add missing Patrons to list
+
+## [1.11.0] - 2019-09-08
+
+### Added
+
+- New piece: "Agua Ravine"
+
+## [1.10.1] - 2019-09-01
+
+### Fixed
+
+- Update "No Refrain" to latest patch version
+
+### [1.10.0] - 2019-09-01
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "No Refrain"
+
+## [1.9.0] - 2019-08-24
+
+### Fixed
+
+- App background covers entire About tab
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "At Sunrise"
+
+## [1.8.0] - 2019-08-18
+
+### Changed
+
+- Update Patron list
+- Reword site descriptions for better SEO ranking
+
+### Added
+
+- New piece: "Last Transit"
+- Alternative visualization
+
+## [1.7.0] - 2019-08-11
+
+### Changed
+
+- Update Patron list
+
+### Added
+
+- New piece: "Yesterday"
+
+## [1.6.1] - 2019-08-04
+
+### Fixed
+
+- Add missing Patrons
+
+## [1.6.0] - 2019-08-04
+
+### Changed
+
+- Include "ambient" in site descriptions
+
+### Added
+
+- New piece: "Stratospheric"
+
 ## [1.5.0] - 2019-07-28
 
 ### Fixed
@@ -402,7 +633,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Sound files will no longer be fetched and cached during service worker installation. They'll be cached once they are fetched for the first time. This significantly reduces cache usage since only one audio format is used per client.
 
-[unreleased]: https://github.com/generative-music/generative.fm/compare/v1.5.0...HEAD
+[unreleased]: https://github.com/generative-music/generative.fm/compare/v1.24.0...HEAD
+[1.24.0]: https://github.com/generative-music/generative.fm/compare/v1.23.0...v1.24.0
+[1.23.0]: https://github.com/generative-music/generative.fm/compare/v1.22.0...v1.23.0
+[1.22.0]: https://github.com/generative-music/generative.fm/compare/v1.21.0...v1.22.0
+[1.21.0]: https://github.com/generative-music/generative.fm/compare/v1.20.0...v1.21.0
+[1.20.0]: https://github.com/generative-music/generative.fm/compare/v1.19.0...v1.20.0
+[1.19.0]: https://github.com/generative-music/generative.fm/compare/v1.18.1...v1.19.0
+[1.18.1]: https://github.com/generative-music/generative.fm/compare/v1.18.0...v1.18.1
+[1.18.0]: https://github.com/generative-music/generative.fm/compare/v1.17.0...v1.18.0
+[1.17.0]: https://github.com/generative-music/generative.fm/compare/v1.16.1...v1.17.0
+[1.16.1]: https://github.com/generative-music/generative.fm/compare/v1.16.0...v1.16.1
+[1.16.0]: https://github.com/generative-music/generative.fm/compare/v1.15.0...v1.16.0
+[1.15.0]: https://github.com/generative-music/generative.fm/compare/v1.14.0...v1.15.0
+[1.14.0]: https://github.com/generative-music/generative.fm/compare/v1.13.0...v1.14.0
+[1.13.0]: https://github.com/generative-music/generative.fm/compare/v1.12.0...v1.13.0
+[1.12.0]: https://github.com/generative-music/generative.fm/compare/v1.11.1...v1.12.0
+[1.11.1]: https://github.com/generative-music/generative.fm/compare/v1.11.0...v1.11.1
+[1.11.0]: https://github.com/generative-music/generative.fm/compare/v1.10.1...v1.11.0
+[1.10.1]: https://github.com/generative-music/generative.fm/compare/v1.10.0...v1.10.1
+[1.10.0]: https://github.com/generative-music/generative.fm/compare/v1.9.0...v1.10.0
+[1.9.0]: https://github.com/generative-music/generative.fm/compare/v1.8.0...v1.9.0
+[1.8.0]: https://github.com/generative-music/generative.fm/compare/v1.7.0...v1.8.0
+[1.7.0]: https://github.com/generative-music/generative.fm/compare/v1.6.1...v1.7.0
+[1.6.1]: https://github.com/generative-music/generative.fm/compare/v1.6.0...v1.6.1
+[1.6.0]: https://github.com/generative-music/generative.fm/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/generative-music/generative.fm/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/generative-music/generative.fm/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/generative-music/generative.fm/compare/v1.2.1...v1.3.0
